@@ -61,11 +61,11 @@ class Program
         Console.WriteLine(trueValue == falseValue);  // False
         Console.WriteLine(trueValue != trueValue);   // False
 
-        // Также можно использовать MyBoolean как bool
+      
         bool regularBool = trueValue;
-        Console.WriteLine(regularBool); // True
+        Console.WriteLine(regularBool); 
 
         MyBoolean myBool = false;
-        Console.WriteLine(myBool); // False
+        Console.WriteLine(myBool); 
     }
 }
